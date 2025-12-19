@@ -1,4 +1,4 @@
 #define QWE  0
-#define TAR  1
+#define COL  1
 #define NUM  2
 #define FNC  3
