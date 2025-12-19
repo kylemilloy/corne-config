@@ -69,14 +69,14 @@
       timeout-ms = <40>;
       bindings = <&to QWE>;
       key-positions = <LTHM1 RTHM1>;
-    }
+    };
 
     combo_to_colemak {
       layers = <QWE>;
       timeout-ms = <40>;
       bindings = <&to COL>;
       key-positions = <LTHM1 RTHM1>;
-    }
+    };
 
     combo_minus {
       timeout-ms = <40>;
