@@ -1,0 +1,43 @@
+#define LTOP1   0
+#define LTOP2   1
+#define LTOP3   2
+#define LTOP4   3
+#define LTOP5   4
+
+#define RTOP5   5
+#define RTOP4   6
+#define RTOP3   7
+#define RTOP2   8
+#define RTOP1   9
+
+#define LMID1  10
+#define LMID2  11
+#define LMID3  12
+#define LMID4  13
+#define LMID5  14
+
+#define RMID5  15
+#define RMID4  16
+#define RMID3  17
+#define RMID2  18
+#define RMID1  19
+
+#define LBOT1  20
+#define LBOT2  21
+#define LBOT3  22
+#define LBOT4  23
+#define LBOT5  24
+
+#define RBOT5  25
+#define RBOT4  26
+#define RBOT3  27
+#define RBOT2  28
+#define RBOT1  29
+
+#define LTHM1  30
+#define LTHM2  31
+#define LTHM3  32
+
+#define RTHM3  33
+#define RTHM2  34
+#define RTHM1  35

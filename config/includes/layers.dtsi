@@ -1,0 +1,4 @@
+#define QWE  0
+#define TAR  1
+#define SYM  2
+#define FNC  3
