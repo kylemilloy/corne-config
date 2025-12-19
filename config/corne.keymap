@@ -12,10 +12,6 @@
 
 #define HYPER  RS(RC(RA(RGUI)))
 
-&caps_word {
-    continue-list = <SPACE UNDERSCORE MINUS BACKSPACE DELETE DOT COMMA SEMI SQT>;
-};
-
 / {
   chosen {
     zmk,physical-layout = &foostan_corne_5col_layout;
@@ -68,16 +64,22 @@
   combos {
     compatible = "zmk,combos";
 
-    combo_caps {
-      timeout-ms = <50>;
-      bindings = <&caps_word>;
-      key-positions = <LMID1 RMID1>;
-    };
-
-    combo_dash {
+    combo_minus {
       timeout-ms = <40>;
       bindings = <&kp MINUS>;
       key-positions = <LTOP4 RTOP4>;
+    };
+
+    combo_equal {
+      timeout-ms = <40>;
+      bindings = <&kp UNDERSCORE>;
+      key-positions = <LMID4 RMID4>;
+    };
+
+    combo_plus {
+      timeout-ms = <40>;
+      bindings = <&kp PLUS>;
+      key-positions = <LMID3 RMID3>;
     };
 
     combo_lodash {
